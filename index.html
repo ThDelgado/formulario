@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1>FORMULARIO</h1>
+
+        <!--nombre-->
+        <label for="name">NOMBRE:</label>
+        <input type="text" id="name">
+        <br>
+
+        <!--direccion-->
+        <label for="dir">DIRECCION:</label>
+        <input type="text" id="dir">
+        <br>
+
+         <!--especialidad medica-->
+        <label for="esp">ESPECIALIDAD MEDICA:</label>
+        <select id="esp" name="especialidad" form="espform">
+            <option value="interna">MEDICINA INTERNA</option>
+            <option value="general">MEDICINA GENERAL</option>
+            <option value="traumat">TRAUMATOLOGIA</option>
+            <option value="nutricionista">NUTRICIONISTA</option>
+        </select>
+        <br>
+
+        <!--hora-->
+        <label for="hr">HORA:</label>
+        <input type="time" id="hr" name="hora">
+        <br>
+       
+        <!--fecha-->
+        <label for="date">FECHA:</label>
+        <input type="date" id="date" name="fecha">
+        <br>
+        
+        <!--email-->
+        <label for="emails">EMAIL:</label>
+        <input type="email" id="emails" name="emails">
+        <br>
+
+        <!--enviar-->
+        <input type="submit">
+
+
+    </form>
+</html>
